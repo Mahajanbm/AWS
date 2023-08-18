@@ -1,0 +1,11 @@
+ step 1 : login with aws account
+step 2: open workbench
+step 3: goto database connect to database
+step 4 : goto aws account and search RDS
+step5 : select create databse
+step 6: select easy create and choose mysql database and choose free tire and give db identifer name
+step 7:give username and password and click on Don't connect to EC2 insatnce
+step 8 :click on create database
+Step 9 : click on DB Identifier and search Connectivity and Security->Endpoints
+step 10 copy endpoint and paste in workbench hostname
+step 11  give user name and password and connect

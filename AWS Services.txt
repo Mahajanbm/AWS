@@ -1,0 +1,15 @@
+1.AWS Storage service
+AWS S3
+2.EC2  /AWS Lambda
+3.Route 53
+4.AWS Database services
+5.AWS application services are there
+6 AWS VPC
+
+
+
+
+
+
+Reationaal databases:
+ we trying to store data in the form of row and column
