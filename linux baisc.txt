@@ -1,0 +1,40 @@
+1.sudo apt update -> to update software/patch
+2.mkdir name ->create new folder in linux
+3.ls ->list all files and folder from current Directory
+4.touch ->it will create file with extension
+5.echo-> print message on console
+6.rm ->to delete file form current Directory
+7.
+
+
+
+
+ubuntu@ip-172-31-33-8:~$ touch file1.txt
+ubuntu@ip-172-31-33-8:~$ touch file2.txt
+ubuntu@ip-172-31-33-8:~$ ls
+file1.txt  file2.txt
+ubuntu@ip-172-31-33-8:~$ cat > mahi.txt
+hi this mahajan from hyd
+welcome to aws classs
+ubuntu@ip-172-31-33-8:~$ ls
+file1.txt  file2.txt  mahi.txt
+ubuntu@ip-172-31-33-8:~$ cat mahi.txt
+hi this mahajan from hyd
+welcome to aws classs
+ubuntu@ip-172-31-33-8:~$ cp file1.txt mahi.txt
+ubuntu@ip-172-31-33-8:~$ cat file1.txt
+ubuntu@ip-172-31-33-8:~$ cp mahi.txt file1.txt
+ubuntu@ip-172-31-33-8:~$ cat file1.txt
+ubuntu@ip-172-31-33-8:~$ cat mahit.txt
+cat: mahit.txt: No such file or directory
+ubuntu@ip-172-31-33-8:~$ cat mahi.txt
+ubuntu@ip-172-31-33-8:~$ ls
+file1.txt  file2.txt  mahi.txt
+ubuntu@ip-172-31-33-8:~$ echo "this is file 2 example" >>file2.txt
+ubuntu@ip-172-31-33-8:~$ cat file2.txt
+this is file 2 example
+ubuntu@ip-172-31-33-8:~$ grep 'is' file2.txt
+this is file 2 example
+ubuntu@ip-172-31-33-8:~$ grep '2' file2.txt
+this is file 2 example
+ubuntu@ip-172-31-33-8:~$ 
