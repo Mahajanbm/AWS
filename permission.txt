@@ -1,0 +1,198 @@
+0 no permission
+1 can excute
+2 can write
+3 can fread 
+4 
+ubuntu@ip-172-31-40-21:~$ ls
+ubuntu@ip-172-31-40-21:~$ mkdir mahi
+ubuntu@ip-172-31-40-21:~$ ls
+mahi
+ubuntu@ip-172-31-40-21:~$ cd mahi
+ubuntu@ip-172-31-40-21:~/mahi$ cat >> mahit.txt
+hi this is mahi from aws
+^C
+ubuntu@ip-172-31-40-21:~/mahi$ ls
+mahit.txt
+ubuntu@ip-172-31-40-21:~/mahi$ cat mahit.txt
+hi this is mahi from aws
+ubuntu@ip-172-31-40-21:~/mahi$ cd .
+ubuntu@ip-172-31-40-21:~/mahi$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+ubuntu@ip-172-31-40-21:~/mahi$ mkdir demo
+ubuntu@ip-172-31-40-21:~/mahi$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+ubuntu@ip-172-31-40-21:~/mahi$  mkidr demo1
+Command 'mkidr' not found, did you mean:
+  command 'mkid' from deb id-utils (4.6.28-20200521ss15dab)
+  command 'mkdir' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>
+ubuntu@ip-172-31-40-21:~/mahi$ mkdir demo2
+ubuntu@ip-172-31-40-21:~/mahi$ mkdir demo3
+ubuntu@ip-172-31-40-21:~/mahi$ \ls
+demo  demo2  demo3  mahit.txt
+ubuntu@ip-172-31-40-21:~/mahi$ cat >> shiv.txt
+hi this is shiv from pune
+ubuntu@ip-172-31-40-21:~/mahi$ cat shiv.txt
+hi this is shiv from pune
+ubuntu@ip-172-31-40-21:~/mahi$ touch mm.txt
+ubuntu@ip-172-31-40-21:~/mahi$ ls
+demo  demo2  demo3  mahit.txt  mm.txt  shiv.txt
+ubuntu@ip-172-31-40-21:~/mahi$ cp shiv.txt mm.txt
+ubuntu@ip-172-31-40-21:~/mahi$ ls
+demo  demo2  demo3  mahit.txt  mm.txt  shiv.txt
+ubuntu@ip-172-31-40-21:~/mahi$ cat mm.txt
+hi this is shiv from pune
+ubuntu@ip-172-31-40-21:~/mahi$ cat >>demo.txt
+hi this is demo file with some content 
+ubuntu@ip-172-31-40-21:~/mahi$ cat demo.txt
+hi this is demo file with some content
+ubuntu@ip-172-31-40-21:~/mahi$ touch demo1.txt
+ubuntu@ip-172-31-40-21:~/mahi$ cp demo.txt demo1.txt
+ubuntu@ip-172-31-40-21:~/mahi$ ls
+demo  demo.txt  demo1.txt  demo2  demo3  mahit.txt  mm.txt  shiv.txt
+ubuntu@ip-172-31-40-21:~/mahi$ cat demo1.txt
+hi this is demo file with some content
+ubuntu@ip-172-31-40-21:~/mahi$ cd demo
+ubuntu@ip-172-31-40-21:~/mahi/demo$ cd mkdir test
+-bash: cd: too many arguments
+ubuntu@ip-172-31-40-21:~/mahi/demo$ mkdir test
+ubuntu@ip-172-31-40-21:~/mahi/demo$  cd test
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ uname -a
+Linux ip-172-31-40-21 5.19.0-1025-aws #26~22.04.1-Ubuntu SMP Mon Apr 24 01:58:15 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ cd..
+cd..: command not found
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ cd.
+Command 'cd.' not found, did you mean:
+  command 'cdp' from deb irpas (0.10-9)
+  command 'cdw' from deb cdw (0.8.1-2)
+  command 'cdb' from deb tinycdb (0.78build3)
+  command 'cdo' from deb cdo (2.0.4-1)
+  command 'cd5' from deb cd5 (0.1-4)
+  command 'cde' from deb cde (0.1+git9-g551e54d-1.2)
+  command 'cdi' from deb cdo (2.0.4-1)
+Try: sudo apt install <deb name>
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ sudo apt install
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ pwd
+/home/ubuntu/mahi/demo/test
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ mkdir mm0 mm1
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ ls
+mm0  mm1
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ rmdir mm0 mm1
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ ls
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ mkdir mahi
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ tocu mahi.txt
+tocu: command not found
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ tocuh mahi.txt
+Command 'tocuh' not found, did you mean:
+  command 'touch' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ touch mahi.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ touch mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ ls
+mahi  mahi.txt  mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ mv mahi.txt mahi
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ ls
+mahi  mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ mv mahi1.txt mahi
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ ls
+mahi
+ubuntu@ip-172-31-40-21:~/mahi/demo/test$ cd mahi
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi$ ls
+mahi.txt  mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi$ mkdir demo
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi$ ls
+demo  mahi.txt  mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi$ mv mahi.txt demo
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi$ ls
+demo  mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi$ mv mahi1.txt demo
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi$ ls
+demo
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi$ cd demo
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ ls
+mahi.txt  mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ pwd
+/home/ubuntu/mahi/demo/test/mahi/demo
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ chmod mahi.txt
+chmod: missing operand after ‘mahi.txt’
+Try 'chmod --help' for more information.
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ ls -al
+total 8
+drwxrwxr-x 2 ubuntu ubuntu 4096 Aug 23 13:20 .
+drwxrwxr-x 3 ubuntu ubuntu 4096 Aug 23 13:20 ..
+-rw-rw-r-- 1 ubuntu ubuntu    0 Aug 23 13:12 mahi.txt
+-rw-rw-r-- 1 ubuntu ubuntu    0 Aug 23 13:12 mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ chmod a+rwx mahi.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ ls -al
+total 8
+drwxrwxr-x 2 ubuntu ubuntu 4096 Aug 23 13:20 .
+drwxrwxr-x 3 ubuntu ubuntu 4096 Aug 23 13:20 ..
+-rwxrwxrwx 1 ubuntu ubuntu    0 Aug 23 13:12 mahi.txt
+-rw-rw-r-- 1 ubuntu ubuntu    0 Aug 23 13:12 mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ chmod a+r mahi.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ ls -al
+total 8
+drwxrwxr-x 2 ubuntu ubuntu 4096 Aug 23 13:20 .
+drwxrwxr-x 3 ubuntu ubuntu 4096 Aug 23 13:20 ..
+-rwxrwxrwx 1 ubuntu ubuntu    0 Aug 23 13:12 mahi.txt
+-rw-rw-r-- 1 ubuntu ubuntu    0 Aug 23 13:12 mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ chmod a+rwx mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$  ls -al
+total 8
+drwxrwxr-x 2 ubuntu ubuntu 4096 Aug 23 13:20 .
+drwxrwxr-x 3 ubuntu ubuntu 4096 Aug 23 13:20 ..
+-rwxrwxrwx 1 ubuntu ubuntu    0 Aug 23 13:12 mahi.txt
+-rwxrwxrwx 1 ubuntu ubuntu    0 Aug 23 13:12 mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ chmod a-rwx mahi.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ ls -al
+total 8
+drwxrwxr-x 2 ubuntu ubuntu 4096 Aug 23 13:20 .
+drwxrwxr-x 3 ubuntu ubuntu 4096 Aug 23 13:20 ..
+---------- 1 ubuntu ubuntu    0 Aug 23 13:12 mahi.txt
+-rwxrwxrwx 1 ubuntu ubuntu    0 Aug 23 13:12 mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ cat >> mahi.txt
+-bash: mahi.txt: Permission denied
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ chmod a+rwx mahi.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ cat >> mahi.txt
+hi this is mahi file
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ ls -al
+total 12
+drwxrwxr-x 2 ubuntu ubuntu 4096 Aug 23 13:20 .
+drwxrwxr-x 3 ubuntu ubuntu 4096 Aug 23 13:20 ..
+-rwxrwxrwx 1 ubuntu ubuntu   21 Aug 23 13:32 mahi.txt
+-rwxrwxrwx 1 ubuntu ubuntu    0 Aug 23 13:12 mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ chmod a-rwx mahi.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ ls -al
+total 12
+drwxrwxr-x 2 ubuntu ubuntu 4096 Aug 23 13:20 .
+drwxrwxr-x 3 ubuntu ubuntu 4096 Aug 23 13:20 ..
+---------- 1 ubuntu ubuntu   21 Aug 23 13:32 mahi.txt
+-rwxrwxrwx 1 ubuntu ubuntu    0 Aug 23 13:12 mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ cat mahi.txt
+cat: mahi.txt: Permission denied
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ chmod 001 mahi.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ ls -al
+total 12
+drwxrwxr-x 2 ubuntu ubuntu 4096 Aug 23 13:20 .
+drwxrwxr-x 3 ubuntu ubuntu 4096 Aug 23 13:20 ..
+---------x 1 ubuntu ubuntu   21 Aug 23 13:32 mahi.txt
+-rwxrwxrwx 1 ubuntu ubuntu    0 Aug 23 13:12 mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ chmod 011 mahi.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ ls -al
+total 12
+drwxrwxr-x 2 ubuntu ubuntu 4096 Aug 23 13:20 .
+drwxrwxr-x 3 ubuntu ubuntu 4096 Aug 23 13:20 ..
+------x--x 1 ubuntu ubuntu   21 Aug 23 13:32 mahi.txt
+-rwxrwxrwx 1 ubuntu ubuntu    0 Aug 23 13:12 mahi1.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ chmod 111 mahi.txt
+ubuntu@ip-172-31-40-21:~/mahi/demo/test/mahi/demo$ ls -al
+total 12
+drwxrwxr-x 2 ubuntu ubuntu 4096 Aug 23 13:20 .
+drwxrwxr-x 3 ubuntu ubuntu 4096 Aug 23 13:20 ..
+---x--x--x 1 ubuntu ubuntu   21 Aug 23 13:32 mahi.txt
