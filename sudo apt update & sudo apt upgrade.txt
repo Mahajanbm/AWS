@@ -1,3 +1,5 @@
+launching ubuntu GUI Based OS
+
 sudo apt update & sudo apt upgrade
 sudo apt install xrdp xfce4 xfce4-goodies tightvncserver
 sudo passwd ubuntu
