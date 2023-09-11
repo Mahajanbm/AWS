@@ -1,0 +1,16 @@
+Creating EC2 instance steps
+1.go to service search ec2 click on ec2
+2. click on launch Instance
+3. Give the appropriate Name of Instance
+4.and Select  Windows OS(os from list)
+5.Instance Type leave it as freeTier
+6.create key pair for OS to encrytion and decryption
+7. launch Instance
+8.Select Instance and connect Instance
+9.click on EC2 Instance  and select RDP  Client
+10.download remote desktop file
+11.click on get password
+12.upload private ket i.e .pem file
+and decrypt the file we get  password 
+13. open  windows .rdp file
+ 
